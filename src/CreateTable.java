@@ -14,7 +14,7 @@ public class CreateTable {
             String password = "yourpassword";
             Connection conn = DriverManager.getConnection(url, user, password);
 
-            System.out.println("Connection successful!");
+            System.out.println("Connection successful");
 
             // Your database operations go here
 
